@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.2-sdk-bionic
+FROM microsoft/dotnet:2.2.104-sdk-bionic
 
 LABEL maintainer="346.design"
 
