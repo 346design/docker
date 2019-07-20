@@ -1,5 +1,7 @@
-FROM scratch
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0-alpine
 
 LABEL maintainer="346.design"
 
-# Template
+RUN apk --no-cache upgrade \
+ && apk --no-cache add clang git zsh \
+ && touch ~/.zshrc
