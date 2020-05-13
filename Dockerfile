@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1.100-alpine
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1.202-alpine
 
 LABEL maintainer="346.design"
 
